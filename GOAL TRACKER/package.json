@@ -1,0 +1,60 @@
+Goal Tracking App
+A simple web application to track weekly goals, monitor progress, and generate performance reports.
+
+1. Features
+Goal Management – Add, update, and delete goals.
+Progress Tracking – Prevents progress from exceeding the target.
+Weekly Reports – View and download JSON reports for the current week.
+
+
+
+2. Tech Stack
+Backend: Django, Django REST Framework.
+Frontend: React, Axios.
+Database: SQLite.
+
+
+3. Setup Instructions
+Backend Setup
+bash
+Copy code
+python -m venv env
+source env/bin/activate      # Linux/Mac
+.\env\Scripts\activate       # Windows
+pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+Frontend Setup
+bash
+Copy code
+cd frontend
+npm install
+npm start
+
+
+4. Usage
+Open the app in your browser:
+Copy code
+http://localhost:3000
+Create Goals – Add name, target, and progress.
+
+Track Progress – Update goals and save changes.
+
+View Report – Click Weekly Report for filtered goals.
+
+Download Report – Click Download Report to save as JSON.
+
+5. Demo Video
+https://drive.google.com/file/d/1NEqKN-UyzOGcpyoqBMIFY219keMmLQUY/view?usp=sharing
+
+6. Dependencies
+Backend: Django, Django REST Framework.
+Frontend: React, Axios.
+
+
+
+7. Future Improvements
+User Authentication.
+Graphical Reports.
+Export Formats (PDF, Excel).
