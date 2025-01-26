@@ -35,10 +35,10 @@ A simple web application to set weekly goals, track daily progress, and generate
     source env/bin/activate      # Linux/Mac
        .\env\Scripts\activate       # Windows
 3.     ```bash
-pip install -r requirements.txt
-  python manage.py makemigrations
-   python manage.py migrate
-   python manage.py runserver
+          pip install -r requirements.txt
+        python manage.py makemigrations
+            python manage.py migrate
+        python manage.py runserver
 
 4.   ```bash
      cd frontend
